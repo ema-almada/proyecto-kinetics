@@ -14,32 +14,75 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes-index/WhatsApp Image 2023-04-20 at 11.17.32 (1).jpeg" alt="Logoempresa">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./fotos.html">Fotos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-sm row">
+          <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand" href="./index.html" ><img class="col-lg-6 col-md-6 col-sm-6"  src="../imagenes-index/WhatsApp Image 2023-04-20 at 11.17.32 (1).jpeg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end col-lg-6 col-md-6 col-sm-6" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-black fs-6" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black fs-6" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black fs-6" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black fs-6 " href="#">Fotos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-black fs-6" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
+      
     <main>
-        <h1>Fotos</h1>
 
-        <h2>Entrenamiento deportivo</h2>
-        <img class="persona-img" src="../imagenes-fotos/gym1.JPG" alt="gimnasio">
-        <img class="persona-img" src="../imagenes-fotos/gym2.JPG" alt="gimnasio">
-        <img class="persona-img" src="../imagenes-fotos/gym3.JPG" alt="gimnasio">
-        <img class="persona-img" src="../imagenes-fotos/gym4.JPG" alt="gimnasio">
+        <h1 class="text-decoration-underline fw-bold d-flex justify-content-center">Fotos</h1>
+      <div> 
+        <h2 class="fw-semibold">Entrenamiento deportivo y fisioterapia</h2>
+        <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes-fotos/gym1.JPG" class="d-block w-25" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes-fotos/gym2.JPG" class="d-block w-25" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes-fotos/gym3.JPG" class="d-block w-25" alt="...">
+            </div>
+              <div class="carousel-item">
+                <img src="../imagenes-fotos/kine1.png" class="d-block w-25" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes-fotos/kine2.JPG" class="d-block w-25" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes-fotos/kine3.JPG" class="d-block w-25" alt="...">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-        <h2>Rehabilitación </h2>
-        <img class="persona-img" src="../imagenes-fotos/kine1.png" alt="Kinesiologia">
-        <img class="persona-img" src="../imagenes-fotos/kine2.JPG" alt="Kinesiologia">
-        <img class="persona-img" src="../imagenes-fotos/kine3.JPG" alt="Kinesiologia">
-        <img class="persona-img" src="../imagenes-fotos/kin5.JPG" alt="Kinesiologia">
 
+        
+        
     </main>    
 
     <footer>
