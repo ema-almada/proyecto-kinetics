@@ -1,0 +1,190 @@
+
+/*font-family: 'Heebo', sans-serif;  */
+
+
+/* index */
+
+/* *saca los margenes de la pagina  */
+
+
+/* #F4F4F4 blanco
+#FF7315 naranja
+#3A3535 gris
+#232020  nero*/
+
+/* header */ 
+*{
+  padding: 0;
+  margin: 0;
+  }
+
+body {
+  font-family: 'Heebo', sans-serif;
+  font-size: 62.5%; /* 1rem = 10px */
+  }
+
+
+  header {
+    background: #FF7315;
+  } 
+  
+
+header img {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+
+
+main {
+  margin-top: 50px; 
+  padding: 20px;
+}
+
+main h1 {
+  margin: 50px;
+  font-family: 'Heebo', sans-serif;
+  
+}
+
+main h2 {
+  margin-top: 75px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.buttonindex {
+  background-color: #FF7315;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  margin-left: 0px;
+}
+a{
+  color: black;
+  text-decoration: none;
+  margin-left: 0px;
+}
+button:hover {
+  background-color: blue;
+  text-decoration:none;
+}
+
+
+
+/* obras sociales index */
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.coberturas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+  
+}
+
+.cobertura-img {
+  max-width: 200px; 
+  height: auto;
+  
+}
+
+/*  pie de pagina*/
+footer {
+    position: fixed;
+    font-size: 1rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* nosotros */
+  .row {
+    margin-bottom: 20px;
+  }
+
+/* servicios */
+.parrafoServicios {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/* FOTOS */
+.fotos {
+  text-align: left;
+}
+
+.persona-img {
+  width: 20%;
+}
+
+
+/* contacto */
+.formularioh1 {
+margin-left: 10px;
+text-decoration: underline;
+}
+
+.formulario{
+  margin: 100px 100px 100px 0px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 100px;
+  text-align: left;
+
+}
+
+label {
+  font-family: 'Heebo', sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #131111;
+  border-radius: 10px;
+}
+
+button { 
+  background-color: #FF7315;
+  color: white;
+  text-decoration: underline none;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+
+.iframe {
+  margin-bottom: 250px;
+}
+
